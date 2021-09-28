@@ -391,7 +391,7 @@ form.searchbar button {
 
     .leftsidebar--contact h3 {
         padding    : 0px 10px;
-        font-size  : 15px;
+        font-size  : 10px;
         font-weight: 500;
     }
 
@@ -502,15 +502,15 @@ form.searchbar button {
 
     .menu--item {
         width : 100%;
-        height: 530px;
+        height:400px;
         margin: 10px 0;
-        padding: 50px;
+        padding: 20px;
     }
 
     .menu--item img {
-        width        : 400px;
-        border-radius: 10px;
-        padding      : 30px;
+        width           : 250px;
+        border-radius   : 5px;
+        padding         : 10px 0;
     }
 
     .menu--item img:hover {
@@ -571,8 +571,8 @@ form.searchbar button {
 
     .about--contentimage--discription {
         background-color: #000000b4;
-        width           : 80%;
-        margin          : 50px auto;
+        width           : 90%;
+        margin          : 30px auto;
         font-size       : 20px;
     }
 
@@ -582,7 +582,7 @@ form.searchbar button {
     .service--content {
         width      : 80%;
         height     : auto;
-        padding-top: 10px;
+        padding-top: 30px;
         text-align : center;
     }
 
