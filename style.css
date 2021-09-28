@@ -13,7 +13,7 @@
     width : 80%;
     margin: auto;
 }
-
+/*Code start */
 /* left side bar start */
 .leftsidebar {
     background-color: #0062ff;
@@ -366,7 +366,7 @@ form.searchbar button {
 }
 
 /* footer end  */
-@media only screen and (max-width:800px) {
+@media only screen and (max-width:600px) {
     .container {
         width: 100%;
     }
