@@ -281,16 +281,17 @@ form.searchbar button {
 /* service start  */
 #service {
     background-image : url('jym8.jpg');
+    width            : 100%;
     text-shadow      : 2px 2px 5px black;
     background-repeat: no-repeat;
     background-size  : cover;
-    height           : 300px;
+    height           : auto;
     text-align       : center;
 }
 
 .service--content {
-    width      : 60%;
-    height     : 300px;
+    width      : 80%;
+    height     : auto;
     margin     : auto;
     padding-top: 50px;
 }
@@ -315,6 +316,10 @@ form.searchbar button {
     box-shadow    : 2px 2px 5px black;
     border-radius : 5px;
     text-transform: uppercase;
+}
+
+.service--content--number {
+    visibility: hidden;
 }
 
 /* service end  */
@@ -368,16 +373,19 @@ form.searchbar button {
 
     /* left side bar start */
     .leftsidebar {
-        padding: 5px;
+        padding       : 5px;
+        flex-direction: column;
+        text-align    : center;
     }
 
     .leftsidebar--contact {
-        display: flex;
-        padding: 0px;
+        display        : flex;
+        justify-content: space-between;
+        padding        : 0px;
     }
 
     .leftsidebar--contact i {
-        padding: 0px;
+        padding  : 0px;
         font-size: 20px;
     }
 
@@ -395,10 +403,9 @@ form.searchbar button {
 
     /* main bar start  */
     .mainbar {
-        background-image   : url(maintemp1.jpg);
-        background-repeat  : no-repeat;
-        background-size    : cover;
-        background-position: center center;
+        background-image : url(mobilemain.jpg);
+        background-repeat: no-repeat;
+        background-size  : cover;
     }
 
     .mainbar--contant {
@@ -421,20 +428,16 @@ form.searchbar button {
 
     form.searchbar input[type=text] {
         padding   : 10px;
-        font-size : 25px;
         color     : #0062ff;
         border    : 3px solid #0062ff;
         background: transparent;
     }
 
     form.searchbar button {
-        width      : 20%;
-        height     : 54px;
-        padding    : 10px;
-        background : transparent;
-        color      : #0062ff;
-        font-size  : 25px;
-        border     : 3px solid #0062ff;
+        padding   : 10px;
+        background: transparent;
+        color     : #0062ff;
+        border    : 3px solid #0062ff;
     }
 
     .logo {
@@ -473,6 +476,12 @@ form.searchbar button {
         width: 100%;
     }
 
+    .home__picgallery h3 {
+        color           : #f1f1f1;
+        background-color: #0062ff;
+        font-size       : 25px;
+    }
+
     .home__discriptions {
         flex-direction: column;
     }
@@ -495,6 +504,7 @@ form.searchbar button {
         width : 100%;
         height: 530px;
         margin: 10px 0;
+        padding: 50px;
     }
 
     .menu--item img {
@@ -571,17 +581,39 @@ form.searchbar button {
     /* service start  */
     .service--content {
         width      : 80%;
-        height     : 300px;
-        padding-top: 30px;
+        height     : auto;
+        padding-top: 10px;
+        text-align : center;
     }
 
     .service--content h2 {
-        font-size: 30px;
+        font-size: 20px;
+    }
+
+    .service--content p {
+        font-size: 15px;
+    }
+
+    .service--content--button {
+        text-align: center;
     }
 
     .service--content--button button {
-        width : 40%;
-        margin: 10px;
+        visibility: hidden;
+    }
+
+    .service--content--number button{
+        visibility    : visible;
+        width         : 50%;
+        height        : 40px;
+        font-size     : 15px;
+        color         : #0062ff;
+        font-weight   : 600;
+        margin        : 20px;
+        border        : none;
+        box-shadow    : 2px 2px 5px black;
+        border-radius : 5px;
+        text-transform: uppercase;
     }
 
     /* service end  */
